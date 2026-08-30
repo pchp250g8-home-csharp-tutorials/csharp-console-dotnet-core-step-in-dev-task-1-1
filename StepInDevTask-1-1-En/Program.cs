@@ -1,7 +1,7 @@
 ﻿uint n; // number of blocks
 uint k; // number of towers
 Console.Clear(); // Clear screen
-Console.WriteLine("Enter the number of blocks");
+Console.WriteLine("Enter the number of blocks for 1 tower");
 UInt32.TryParse(Console.ReadLine(),out n);
 Console.WriteLine("Enter the number of towers");
 UInt32.TryParse(Console.ReadLine(), out k);
